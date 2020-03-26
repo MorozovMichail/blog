@@ -1,0 +1,10 @@
+index:
+    path: /
+    controller: App\Controller\PageController::indexAction
+    requirements:
+         methods:  GET
+about:
+  path:   /about
+  controller:  App\Controller\PageController::aboutAction
+  requirements:
+    methods:  GET
