@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e156cff2-2952-458e-aa49-ada95cf65245" name="Default Changelist" comment="" />
+    <list default="true" id="e156cff2-2952-458e-aa49-ada95cf65245" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/packages/dev/swiftmailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/fos_user.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/swiftmailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/swiftmailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/web/css/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Enquiry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/EnquiryType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20200331052839.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20200331061158.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/UserFeedBackRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/page/contact.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/page/emailpaper.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/page/success_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/NotAbController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/email_contact/registration.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/not_ab/index.html.twig" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +41,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -120,6 +152,8 @@
       <path value="$PROJECT_DIR$/vendor/easycorp/easy-log-handler" />
       <path value="$PROJECT_DIR$/vendor/ocramius/package-versions" />
       <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ZcmDYeC5o8Ms0TmGcuXZWxBr8P" />
@@ -139,6 +173,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -160,6 +195,12 @@
       <workItem from="1585206279776" duration="5572000" />
       <workItem from="1585211915080" duration="1145000" />
       <workItem from="1585213162602" duration="5663000" />
+      <workItem from="1585234626444" duration="649000" />
+      <workItem from="1585312401384" duration="7811000" />
+      <workItem from="1585550897492" duration="7284000" />
+      <workItem from="1585560739254" duration="8904000" />
+      <workItem from="1585631827759" duration="3973000" />
+      <workItem from="1585648468047" duration="3703000" />
     </task>
     <servers />
   </component>
@@ -167,13 +208,27 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="557" y="376" key="com.intellij.ide.util.TipDialog" timestamp="1585213167467">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585555293482">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="557" y="376" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585213167467" />
-    <state x="856" y="199" key="run.anything.popup" timestamp="1585211740294">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585555293482" />
+    <state x="1170" y="278" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585572066266">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="1170" y="278" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585572066266" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1585552756377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="165" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585552756377" />
+    <state x="668" y="455" key="com.intellij.ide.util.TipDialog" timestamp="1585652380199">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="455" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585652380199" />
+    <state x="557" y="376" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585312430867" />
+    <state x="1027" y="241" key="run.anything.popup" timestamp="1585551174448">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1027" y="241" key="run.anything.popup/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585551174448" />
     <state x="856" y="199" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1585211740294" />
   </component>
 </project>

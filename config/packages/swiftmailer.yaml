@@ -1,0 +1,8 @@
+swiftmailer:
+
+    transport: gmail
+    encryption: ssl
+    auth_mode: login
+    host: smtp.gmail.com
+    username: morozovwork26@gmail.com
+    password: dagoba18print44
