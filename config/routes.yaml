@@ -13,3 +13,9 @@ contact:
   controller:  App\Controller\PageController::contactAction
   requirements:
     methods:  GET|POST
+blog_show:
+  path:  /{id}
+  controller:  App\Controller\BlogController::showAction
+  requirements:
+    methods:  GET
+    id: \d+

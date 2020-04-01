@@ -2,15 +2,15 @@
 
 namespace App\Controller;
 
-use App\Entity\Enquiry;
-use App\Form\EnquiryType;
+
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
 // Import new namespaces
 use Symfony\Component\HttpFoundation\Request;
-
+use App\Entity\Enquiry;
+use App\Form\EnquiryType;
 
 class PageController extends AbstractController
 {
