@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\BlogRepository")
@@ -11,9 +12,16 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Blog
 {
+    public function __toString()
+    {
+        return $this->getTitle();
+    }
+
 
     public function __construct()
     {
+        $this->comments = new ArrayCollection();
+
         $this->setCreated(new \DateTime());
         $this->setUpdated(new \DateTime());
     }
@@ -62,9 +70,12 @@ class Blog
     /**
      * @return mixed
      */
-    public function getBlog()
+    public function getBlog($length = null)
     {
-        return $this->blog;
+        if (false === is_null($length) && $length > 0)
+            return substr($this->blog, 0, $length);
+        else
+            return $this->blog;
     }
 
     /**
@@ -138,41 +149,49 @@ class Blog
     {
         $this->updated = $updated;
     }
+    public function getId()
+    {
+        return $this->id;
+    }
     /**
      * @ORM\Id()
      * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
      */
-    protected $id;
+    public $id;
 
     /**
      * @ORM\Column(type="string")
      */
-    protected $title;
+    public $title;
     /**
      * @ORM\Column(type="string")
      */
-    protected $author;
+    public $author;
     /**
      * @ORM\Column(type="text")
      */
-    protected $blog;
+    public $blog;
     /**
      * @ORM\Column(type="string")
      */
-    protected $image;
+    public $image;
     /**
      * @ORM\Column(type="text")
      */
-    protected $tags;
+    public $tags;
+    /**
+     * @ORM\OneToMany(targetEntity="Comment", mappedBy="blog")
+     */
+    public $comments;
+    /**
+     * @ORM\Column(type="datetime")
+     */
+    public $created;
+    /**
+     * @ORM\Column(type="datetime")
+     */
+    public $updated;
 
-    protected $comments;
-    /**
-     * @ORM\Column(type="datetime")
-     */
-    protected $created;
-    /**
-     * @ORM\Column(type="datetime")
-     */
-    protected $updated;
+
 }

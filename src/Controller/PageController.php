@@ -6,27 +6,37 @@ namespace App\Controller;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
-
+use Doctrine\ORM\EntityManagerInterface;
 // Import new namespaces
 use Symfony\Component\HttpFoundation\Request;
 use App\Entity\Enquiry;
 use App\Form\EnquiryType;
+use App\Entity\Blog;
 
 class PageController extends AbstractController
 {
     /**
-     * @Route("/", name="page")
+     * @Route("/", name="home")
      */
     public function indexAction()
     {
-        return $this->render('page/index.html.twig');
+        $em = $this->getDoctrine()
+            ->getManager();
+
+        $blogs = $em->getRepository(blog::class)
+            ->getLatestBlogs();
+        return $this->render('page/index.html.twig', [
+            'blogs' => $blogs
+            ]);
     }
+
+
     /**
      * @Route("/about", name="about")
      */
     public function aboutAction()
     {
-        return $this->render('page/about.html.twig');
+         return $this->render('page/about.html.twig');
     }
 
 
@@ -70,7 +80,7 @@ class PageController extends AbstractController
 
                     $em->persist($task);
 
-                $name='Писька';
+
                 $message = (new \Swift_Message('Hello Email'))
                     ->setSubject('Contact enquiry from symblog')
                     ->setFrom('morozovwork26@gmail.com')
@@ -96,6 +106,9 @@ class PageController extends AbstractController
         ));
 
     }
+
+
+
     /**
      * @Route("/success", name="success")
      */

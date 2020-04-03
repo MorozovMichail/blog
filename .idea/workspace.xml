@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e156cff2-2952-458e-aa49-ada95cf65245" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/blog3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="a1346a5f-c866-4883-9374-435520e2de14" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/web/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/css/blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BloggerController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/BlogFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/BlogFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/BlogRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/BlogRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blogger/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/page/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +174,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e156cff2-2952-458e-aa49-ada95cf65245" name="Default Changelist" comment="" />
+      <changelist id="a1346a5f-c866-4883-9374-435520e2de14" name="Default Changelist" comment="" />
       <created>1585146641580</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -187,6 +191,11 @@
       <workItem from="1585648468047" duration="3703000" />
       <workItem from="1585652371400" duration="794000" />
       <workItem from="1585719325128" duration="14749000" />
+      <workItem from="1585742751195" duration="8000" />
+      <workItem from="1585809000726" duration="19498000" />
+      <workItem from="1585893068442" duration="2728000" />
+      <workItem from="1585897180374" duration="638000" />
+      <workItem from="1585924804927" duration="21000" />
     </task>
     <servers />
   </component>
@@ -194,14 +203,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585555293482">
+    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585817800625">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585555293482" />
-    <state x="1234" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1585731812670">
+    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585817800625" />
+    <state x="1234" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1585828181944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1234" y="239" key="#com.intellij.ide.util.MemberChooser/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585731812670" />
+    <state x="1234" y="239" key="#com.intellij.ide.util.MemberChooser/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585828181944" />
     <state x="1170" y="278" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585572066266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -210,10 +219,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585552756377" />
-    <state x="668" y="455" key="com.intellij.ide.util.TipDialog" timestamp="1585719362098">
+    <state x="668" y="455" key="com.intellij.ide.util.TipDialog" timestamp="1585924808038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="455" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585719362098" />
+    <state x="668" y="455" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585924808038" />
     <state x="557" y="376" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585312430867" />
     <state x="1027" y="241" key="run.anything.popup" timestamp="1585551174448">
       <screen x="0" y="0" width="1920" height="1040" />

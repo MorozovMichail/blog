@@ -19,3 +19,9 @@ blog_show:
   requirements:
     methods:  GET
     id: \d+
+comment_create:
+  path:  /comment/{blog_id}
+  controller:  App\Controller\CommentController:createAction
+  requirements:
+    methods:  POST
+    blog_id: \d+
