@@ -14,7 +14,7 @@ contact:
   requirements:
     methods:  GET|POST
 blog_show:
-  path:  /{id}
+  path:  /{id}/{slug}
   controller:  App\Controller\BlogController::showAction
   requirements:
     methods:  GET

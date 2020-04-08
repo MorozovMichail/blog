@@ -17,7 +17,7 @@ class BlogController extends AbstractController
     /**
      * Show a blog entry
      */
-    public function showAction($id)
+    public function showAction($id, $slug)
     {   //Выво одной строки в таблице
         $em = $this->getDoctrine()->getManager();
 

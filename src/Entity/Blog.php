@@ -49,6 +49,8 @@ class Blog
     public function setTitle($title): void
     {
         $this->title = $title;
+
+        $this->setSlug($this->title);
     }
 
     /**
@@ -118,6 +120,7 @@ class Blog
         $this->tags = $tags;
     }
 
+
     /**
      * @return mixed
      */
@@ -149,6 +152,7 @@ class Blog
     {
         $this->updated = $updated;
     }
+
     public function getId()
     {
         return $this->id;
@@ -192,6 +196,55 @@ class Blog
      * @ORM\Column(type="datetime")
      */
     public $updated;
+
+    /**
+     * @ORM\Column(type="string")
+     */
+    public $slug;
+
+    /**
+     * @return mixed
+     */
+    public function getSlug()
+    {
+        return $this->slug;
+    }
+
+    /**
+     * @param mixed $slug
+     */
+    public function setSlug($slug): void
+    {
+        $this->slug = $this->slugify($slug);
+    }
+
+    public function slugify($text)
+    {
+        // replace non letter or digits by -
+        $text = preg_replace('#[^\\pL\d]+#u', '-', $text);
+
+        // trim
+        $text = trim($text, '-');
+
+        // transliterate
+        if (function_exists('iconv'))
+        {
+            $text = iconv('utf-8', 'us-ascii//TRANSLIT', $text);
+        }
+
+        // lowercase
+        $text = strtolower($text);
+
+        // remove unwanted characters
+        $text = preg_replace('#[^-\w]+#', '', $text);
+
+        if (empty($text))
+        {
+            return 'n-a';
+        }
+
+        return $text;
+    }
 
 
 }

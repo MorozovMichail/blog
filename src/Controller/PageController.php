@@ -12,6 +12,7 @@ use Symfony\Component\HttpFoundation\Request;
 use App\Entity\Enquiry;
 use App\Form\EnquiryType;
 use App\Entity\Blog;
+use App\Entity\Comment;
 
 class PageController extends AbstractController
 {
@@ -107,6 +108,30 @@ class PageController extends AbstractController
 
     }
 
+
+    public function sidebarAction()
+    {
+        $em = $this->getDoctrine()
+            ->getManager();
+
+        $tags = $em->getRepository(blog::class)
+            ->getTags();
+
+        $tagWeights = $em->getRepository(blog::class)
+            ->getTagWeights($tags);
+
+
+        $latestComments = $em->getRepository(Comment::class)
+            ->getLatestComments(10);
+
+        return $this->render('page/sidebar.html.twig', array(
+            'latestComments'    => $latestComments,
+            'tags'              => $tagWeights
+        ));
+
+
+
+    }
 
 
     /**

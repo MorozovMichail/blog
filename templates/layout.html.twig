@@ -3,8 +3,9 @@
 {% block stylesheets %}
     {{ parent() }}
     <link href="{{ asset('/web/css/blog.css') }}" type="text/css" rel="stylesheet" />
+    <link href="{{ asset('/web/css/sidebar.css') }}" type="text/css" rel="stylesheet" />
 {% endblock %}
 
 {% block sidebar %}
-    Sidebar content
+    {{ render(controller('App\\Controller\\PageController::sidebarAction')) }}
 {% endblock %}

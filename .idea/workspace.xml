@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1346a5f-c866-4883-9374-435520e2de14" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/blog3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/web/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/web/css/blog.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BlogController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/BloggerController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CommentController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/BlogFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/BlogFixtures.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Blog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repository/BlogRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/BlogRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blogger/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/CommentRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/CommentRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Twig/PageControllerExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Twig/PageControllerExtension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Comment/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Comment/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/page/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +137,6 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
-      <path value="$PROJECT_DIR$/vendor/easycorp/easy-log-handler" />
       <path value="$PROJECT_DIR$/vendor/ocramius/package-versions" />
       <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
       <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
@@ -161,7 +162,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -196,6 +197,8 @@
       <workItem from="1585893068442" duration="2728000" />
       <workItem from="1585897180374" duration="638000" />
       <workItem from="1585924804927" duration="21000" />
+      <workItem from="1586152174449" duration="7223000" />
+      <workItem from="1586326506297" duration="5716000" />
     </task>
     <servers />
   </component>
@@ -207,27 +210,31 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585817800625" />
-    <state x="1234" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1585828181944">
+    <state x="1234" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1586158872451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1234" y="239" key="#com.intellij.ide.util.MemberChooser/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585828181944" />
+    <state x="1234" y="239" key="#com.intellij.ide.util.MemberChooser/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586158872451" />
     <state x="1170" y="278" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585572066266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1170" y="278" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585572066266" />
-    <state x="463" y="165" key="SettingsEditor" timestamp="1585552756377">
+    <state x="855" y="193" key="SettingsEditor" timestamp="1586267385379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="165" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585552756377" />
-    <state x="668" y="455" key="com.intellij.ide.util.TipDialog" timestamp="1585924808038">
+    <state x="855" y="193" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586267385379" />
+    <state x="668" y="455" key="com.intellij.ide.util.TipDialog" timestamp="1586326509554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="455" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585924808038" />
+    <state x="668" y="455" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586326509554" />
     <state x="557" y="376" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585312430867" />
     <state x="1027" y="241" key="run.anything.popup" timestamp="1585551174448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1027" y="241" key="run.anything.popup/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585551174448" />
     <state x="856" y="199" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1585211740294" />
+    <state x="1042" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1586258514483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1042" y="230" width="672" height="678" key="search.everywhere.popup/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586258514483" />
   </component>
 </project>
