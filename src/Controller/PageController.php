@@ -97,7 +97,7 @@ class PageController extends AbstractController
 
 
 
-                return $this->redirectToRoute('success');
+                $this->get('session')->getFlashBag()->add('blogger-notice', 'Your contact enquiry was successfully sent. Thank you!');
                return $this->redirect($this->generateUrl('contact'));
             }
 
