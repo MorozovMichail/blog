@@ -6,6 +6,8 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "sensio/framework-extra-bundle": "^5.5",
+        "sonata-project/admin-bundle": "^3.64",
+        "sonata-project/doctrine-orm-admin-bundle": "^3.16",
         "symfony/apache-pack": "^1.0",
         "symfony/asset": "4.4.*",
         "symfony/console": "4.4.*",

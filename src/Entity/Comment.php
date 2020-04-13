@@ -72,7 +72,7 @@ class Comment
     /**
      * @return mixed
      */
-    public function getBlog()
+    public function getBlog(): ?Blog
     {
         return $this->blog;
     }
@@ -80,11 +80,12 @@ class Comment
     /**
      * @param mixed $blog
      */
-    public function setBlog($blog): void
+    public function setBlog(?Blog $blog): self
     {
         $this->blog = $blog;
-    }
+        return $this;
 
+    }
     /**
      * @return mixed
      */
@@ -140,7 +141,7 @@ class Comment
 
     /**
      * @ORM\ManyToOne(targetEntity="Blog", inversedBy="comments")
-     * @ORM\JoinColumn(name="blog_id", referencedColumnName="id")
+     * @ORM\JoinColumn(name="blog_id", referencedColumnName="id", onDelete="CASCADE")
      */
     protected $blog;
 

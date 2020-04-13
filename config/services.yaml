@@ -6,6 +6,16 @@
 parameters:
 
 services:
+    admin.Comment:
+        class: App\Admin\CommentAdmin
+        arguments: [~, App\Entity\Comment, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: Comment }
+    admin.Blog:
+        class:  App\Admin\BlogAdmin
+        arguments:  [ ~ ,  App\Entity\Blog,  ~ ]
+        tags:
+            - {  name:  sonata.admin,  manager_type:  orm,  label:  Blog }
     # default configuration for services in *this* file
     _defaults:
         autowire: true      # Automatically injects dependencies in your services.

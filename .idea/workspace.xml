@@ -7,8 +7,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Twig/PageControllerExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Twig/PageControllerExtension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Comment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +28,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -136,6 +146,24 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
       <path value="$PROJECT_DIR$/vendor/bin/.phpunit" />
+      <path value="$PROJECT_DIR$/vendor/sonata-project/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sonata-project/doctrine-extensions" />
+      <path value="$PROJECT_DIR$/vendor/sonata-project/datagrid-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sonata-project/core-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sonata-project/cache" />
+      <path value="$PROJECT_DIR$/vendor/sonata-project/block-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sonata-project/admin-bundle" />
+      <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-acl" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-menu-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-menu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/templating" />
+      <path value="$PROJECT_DIR$/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/vendor/twig/string-extra" />
+      <path value="$PROJECT_DIR$/vendor/sonata-project/doctrine-orm-admin-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ZcmDYeC5o8Ms0TmGcuXZWxBr8P" />
@@ -194,6 +222,10 @@
       <workItem from="1586326506297" duration="5716000" />
       <workItem from="1586412335657" duration="2957000" />
       <workItem from="1586418894698" duration="9088000" />
+      <workItem from="1586765719834" duration="795000" />
+      <workItem from="1586767107238" duration="6368000" />
+      <workItem from="1586782231485" duration="388000" />
+      <workItem from="1586782746528" duration="9000" />
     </task>
     <servers />
   </component>
@@ -221,19 +253,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="855" y="193" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586267385379" />
-    <state x="668" y="455" key="com.intellij.ide.util.TipDialog" timestamp="1586418918112">
+    <state x="668" y="455" key="com.intellij.ide.util.TipDialog" timestamp="1586782746956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="455" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586418918112" />
+    <state x="-1354" y="295" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1586782307267" />
+    <state x="668" y="455" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586782746956" />
     <state x="557" y="376" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585312430867" />
-    <state x="1027" y="241" key="run.anything.popup" timestamp="1585551174448">
+    <state x="1027" y="241" key="run.anything.popup" timestamp="1586779605484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1027" y="241" key="run.anything.popup/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585551174448" />
+    <state x="1027" y="241" key="run.anything.popup/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586779605484" />
     <state x="856" y="199" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1585211740294" />
-    <state x="1042" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1586415392657">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1076" y="142" width="672" height="475" key="search.everywhere.popup" timestamp="1586774342440">
+      <screen x="-1366" y="0" width="1366" height="728" />
     </state>
+    <state x="-1076" y="142" width="672" height="475" key="search.everywhere.popup/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1586774342440" />
     <state x="1042" y="230" width="672" height="678" key="search.everywhere.popup/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586415392657" />
   </component>
 </project>
