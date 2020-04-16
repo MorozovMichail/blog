@@ -2,41 +2,32 @@
 
 namespace App\Form;
 
-use App\Entity\Comment;
+use App\Entity\Blog;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 
 
-class CommentType extends AbstractType
+class AddBlogType extends AbstractType
 {
-    /**
-     * @param FormBuilderInterface $builder
-     * @param array $options
-     */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('user')
-            ->add('comment')
+            ->add('title')
+            ->add('author')
+            ->add('blog')
+            ->add('image')
+            ->add('tags')
             ->add('save', SubmitType::class)
         ;
     }
 
-
-    /**
-     * @param OptionsResolver $resolver
-     */
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults([
-            'data_class' => Comment::class,
-            'csrf_protection' => false
+            'data_class' => Blog::class,
+            'csrf_protection'=>false
         ]);
-    }
-    public function getBlockPrefix()
-    {
-        return 'blogger_blogbundle_commenttype';
     }
 }

@@ -8,11 +8,9 @@
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/CommentType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/CommentType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,6 +162,25 @@
       <path value="$PROJECT_DIR$/vendor/twig/extensions" />
       <path value="$PROJECT_DIR$/vendor/twig/string-extra" />
       <path value="$PROJECT_DIR$/vendor/sonata-project/doctrine-orm-admin-bundle" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/jsonp-callback-validator" />
+      <path value="$PROJECT_DIR$/vendor/hoa/zformat" />
+      <path value="$PROJECT_DIR$/vendor/hoa/visitor" />
+      <path value="$PROJECT_DIR$/vendor/hoa/ustring" />
+      <path value="$PROJECT_DIR$/vendor/hoa/stream" />
+      <path value="$PROJECT_DIR$/vendor/hoa/regex" />
+      <path value="$PROJECT_DIR$/vendor/hoa/protocol" />
+      <path value="$PROJECT_DIR$/vendor/hoa/math" />
+      <path value="$PROJECT_DIR$/vendor/hoa/iterator" />
+      <path value="$PROJECT_DIR$/vendor/hoa/file" />
+      <path value="$PROJECT_DIR$/vendor/hoa/exception" />
+      <path value="$PROJECT_DIR$/vendor/hoa/event" />
+      <path value="$PROJECT_DIR$/vendor/hoa/consistency" />
+      <path value="$PROJECT_DIR$/vendor/hoa/compiler" />
+      <path value="$PROJECT_DIR$/vendor/jms/serializer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jms/serializer" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ZcmDYeC5o8Ms0TmGcuXZWxBr8P" />
@@ -183,13 +200,25 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Tom\Downloads\OSPanel\domains\blog3\templates\page" />
       <recent name="C:\Users\Tom\Downloads\OSPanel\domains\blog3\templates" />
     </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -226,6 +255,11 @@
       <workItem from="1586767107238" duration="6368000" />
       <workItem from="1586782231485" duration="388000" />
       <workItem from="1586782746528" duration="9000" />
+      <workItem from="1586782919948" duration="12000" />
+      <workItem from="1586850969775" duration="1117000" />
+      <workItem from="1586930325062" duration="12611000" />
+      <workItem from="1586951855213" duration="2726000" />
+      <workItem from="1587016094865" duration="18684000" />
     </task>
     <servers />
   </component>
@@ -245,29 +279,39 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1234" y="239" key="#com.intellij.ide.util.MemberChooser/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586158872451" />
-    <state x="1170" y="278" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585572066266">
+    <state x="1170" y="278" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1587033472777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1170" y="278" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1585572066266" />
-    <state x="855" y="193" key="SettingsEditor" timestamp="1586267385379">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="855" y="193" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586267385379" />
-    <state x="668" y="455" key="com.intellij.ide.util.TipDialog" timestamp="1586782746956">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1354" y="295" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1586782307267" />
-    <state x="668" y="455" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586782746956" />
-    <state x="557" y="376" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585312430867" />
-    <state x="1027" y="241" key="run.anything.popup" timestamp="1586779605484">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1027" y="241" key="run.anything.popup/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586779605484" />
-    <state x="856" y="199" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1585211740294" />
-    <state x="-1076" y="142" width="672" height="475" key="search.everywhere.popup" timestamp="1586774342440">
+    <state x="1170" y="278" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1587033472777" />
+    <state x="-678" y="126" key="FileChooserDialogImpl" timestamp="1586858246244">
       <screen x="-1366" y="0" width="1366" height="728" />
     </state>
-    <state x="-1076" y="142" width="672" height="475" key="search.everywhere.popup/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1586774342440" />
+    <state x="-678" y="126" key="FileChooserDialogImpl/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1586858246244" />
+    <state x="-1366" y="0" key="SettingsEditor" timestamp="1586858337474">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-1366" y="0" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1586858337474" />
+    <state x="855" y="193" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586267385379" />
+    <state x="-1354" y="293" key="com.intellij.ide.util.TipDialog" timestamp="1587016110179">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-1354" y="293" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1587016110179" />
+    <state x="668" y="455" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586930328171" />
+    <state x="557" y="376" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585312430867" />
+    <state x="-811" y="217" width="707" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1586858271339">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-811" y="217" width="707" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1586858271339" />
+    <state x="-635" y="169" key="run.anything.popup" timestamp="1586858357395">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-635" y="169" key="run.anything.popup/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1586858357395" />
+    <state x="1027" y="241" key="run.anything.popup/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586779605484" />
+    <state x="856" y="199" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1585211740294" />
+    <state x="-1076" y="142" width="840" height="475" key="search.everywhere.popup" timestamp="1586942615351">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-1076" y="142" width="840" height="475" key="search.everywhere.popup/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1586942615351" />
     <state x="1042" y="230" width="672" height="678" key="search.everywhere.popup/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586415392657" />
   </component>
 </project>
