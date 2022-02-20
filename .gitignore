@@ -7,6 +7,42 @@
 /public/bundles/
 /var/
 /vendor/
+/vendor/.htaccess
+/sitemaps/**/*
+
+###> symfony/framework-bundle ###
+/bin/.phpunit
+/.idea
+/.vscode
+/public/uploads/
+/public/cache/
+/docker/
+/tmp/
+/logs/
+/awstats/
+composer.phar
+###< symfony/framework-bundle ###
+*.env
+sphinx.conf
+route_groups.conf
+
+###> symfony/webpack-encore-bundle ###
+/node_modules/
+**/node_modules/
+/public/build/
+/public/awstats-icon/
+npm-debug.log
+yarn-error.log
+###< symfony/webpack-encore-bundle ###
+
+### Docker for dev
+.composer
+.config
+.npm
+.bash_history
+db-dumps/
+docker-xdc/auth.json
+docker-xdc/.env
 ###< symfony/framework-bundle ###
 
 ###> symfony/phpunit-bridge ###
