@@ -1,0 +1,7 @@
+{
+  "name": "blog",
+  "packageManager": "yarn@3.1.1",
+  "devDependencies": {
+    "@symfony/webpack-encore": "^1.8.1"
+  }
+}
