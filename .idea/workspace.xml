@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1346a5f-c866-4883-9374-435520e2de14" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/blog3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Ads.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/AdsCategories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/MentoringCategories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/MentoringPrograms.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/News.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/NkoRoles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/ProjectResults.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/ProjectStages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Projects.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/ProjectsGroups.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Skills.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/SocialNetwork.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/SocialNetworkType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Vacancy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/VacancyCategories.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Nko.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Nko.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +34,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -194,7 +214,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../PhpstormProjects/kos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -206,6 +226,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Учеба\OSPanel\domains\blog\src\Entity" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Tom\Downloads\OSPanel\domains\blog3\templates\page" />
       <recent name="C:\Users\Tom\Downloads\OSPanel\domains\blog3\templates" />
@@ -264,7 +287,9 @@
       <workItem from="1586930325062" duration="12611000" />
       <workItem from="1586951855213" duration="2726000" />
       <workItem from="1587016094865" duration="18684000" />
-      <workItem from="1645343905409" duration="1097000" />
+      <workItem from="1645343905409" duration="2389000" />
+      <workItem from="1645547214750" duration="2405000" />
+      <workItem from="1645592197742" duration="1759000" />
     </task>
     <servers />
   </component>
