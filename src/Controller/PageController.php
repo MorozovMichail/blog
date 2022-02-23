@@ -16,9 +16,9 @@ use App\Entity\Comment;
 
 class PageController extends AbstractController
 {
-    /**
-     * @Route("/", name="home")
-     */
+//    /**
+//     * @Route("/", name="home")
+//     */
     public function indexAction()
     {
         $em = $this->getDoctrine()

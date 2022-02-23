@@ -21,17 +21,16 @@
             {% block navigation %}
                 <nav>
                     <ul class="navigation">
-                        <li><a href="{{ path('home') }}">Home</a></li>
-                        <li><a href="{{ path('about') }}">About</a></li>
-                        <li><a href="{{ path('contact') }}">Contact</a></li>
+                        <li><a href="{{ path('nko_list') }}">Список НКО</a></li>
+                        <li><a href="{{ path('login') }}">Авторизация</a></li>
+                        <li><a href="{{ path('app_register') }}">Регистрация</a></li>
                     </ul>
                 </nav>
             {% endblock %}
         </div>
 
         <hgroup>
-            <h2>{% block blog_title %}<a href="{{ path('home') }}">symblog</a>{% endblock %}</h2>
-            <h3>{% block blog_tagline %}<a href="{{ path('home') }}">creating a blog in Symfony2</a>{% endblock %}</h3>
+            <h2>{% block blog_title %}<a href="{{ path('nko_list') }}">НКО</a>{% endblock %}</h2>
        </hgroup>
     </header>
 

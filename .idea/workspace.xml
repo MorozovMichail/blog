@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1346a5f-c866-4883-9374-435520e2de14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Entity/Ads.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/AdsCategories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/MentoringCategories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/MentoringPrograms.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/News.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/NkoRoles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/ProjectResults.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/ProjectStages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Projects.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/ProjectsGroups.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Skills.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/SocialNetwork.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/SocialNetworkType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Vacancy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/VacancyCategories.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Nko.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Nko.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/UserFeedBackRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/UserRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
